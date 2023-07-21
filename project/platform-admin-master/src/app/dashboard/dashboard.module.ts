@@ -6,6 +6,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { DashboardRoutingModule } from './routes/dashboard-routing.module';
 import { RouterModule } from '@angular/router';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -17,7 +18,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
   imports: [
     CommonModule,
     RouterModule,
-    DashboardRoutingModule
+    DashboardRoutingModule,
+    HttpClientModule
   ]
 })
 export class DashboardModule { }

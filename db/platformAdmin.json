@@ -1,0 +1,40 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "image": "assets/images/dashboard/icon-person.png",
+      "heading": "Total Jobs Posted",
+      "value": "45,673"
+    },
+    {
+      "id": 2,
+      "image":  "assets/images/dashboard/icon-suitcase.png",
+      "heading": "Total Job Seekers",
+      "value": "7500"
+    },
+    {
+      "id": 3,
+      "image":  "assets/images/dashboard/icon-building.png",
+      "heading": "Total Companies",
+      "value": "93"
+    },
+    {
+      "id": 4,
+      "image":  "assets/images/dashboard/icon-calender.png",
+      "heading": "New Jobs",
+      "value": "86"
+    },
+    {
+      "id": 5,
+      "image":  "assets/images/dashboard/icon-calender.png",
+      "heading": "New Job Seekers",
+      "value": "86"
+    },
+    {
+      "id": 6,
+      "image":  "assets/images/dashboard/icon-suitcase.png",
+      "heading": "New Companies",
+      "value": "75"
+    }
+  ]
+}
