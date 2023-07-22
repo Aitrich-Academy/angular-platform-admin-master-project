@@ -36,3 +36,21 @@
     color: #888;
   }
 
+.chat-box1 {
+  background-color: #d8d8da; 
+  border: 2px solid #ccc; 
+  height: 120px; 
+  width: 400px;
+}
+
+.chat-box2 {
+  background-color: #242491; 
+  color: #ffffff;
+  border: 2px solid #ccc; 
+  height: 110px; 
+  width: 430px;
+  justify-content: end;
+}
+
+
+
