@@ -7,11 +7,7 @@ import { JobSeekerHomeComponent } from '../components/job-seeker-home/job-seeker
 
 const routes: Routes = [{
   path:'',component:JobSeekerHomeComponent,
-  children:[
-    {
-      path:'list',component:JobSeekerListComponent
-    }
-  ]
+  children:[{path:'list',component:JobSeekerListComponent}]
 }];
 
 @NgModule({

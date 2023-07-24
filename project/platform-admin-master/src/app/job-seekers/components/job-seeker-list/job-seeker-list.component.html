@@ -1,1 +1,23 @@
-<p>job-seeker-list works!</p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 mb-4">
+            <div class="card rounded-5 p-2" *ngFor="let item of data.items">
+                <div class="logo d-flex justify-content-center my-2"><img
+                        [src]="item.image" alt="logo"></div>
+                <div class="name d-flex justify-content-center align-items-center flex-sm-column">
+                    <h5> {{item.name}}</h5>
+                    <p> {{item.qualification}}</p>
+                </div>
+                <div class="buttons d-flex justify-content-between mx-3 mb-3">
+                    <button class="rounded-5 px-2">REMOVE</button>
+                    <button class="rounded-5 px-2">BLOCK</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="row">
+      
+    </div>
+</div>
