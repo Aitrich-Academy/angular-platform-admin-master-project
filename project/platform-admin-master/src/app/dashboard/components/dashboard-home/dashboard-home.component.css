@@ -1,0 +1,10 @@
+.card-img {
+    max-width: 70px; /* Adjust the desired max width for the image */
+    max-height: 70px; /* Adjust the desired max height for the image */
+  }
+  
+  .custom-width {
+    width: 300px; /* Adjust the desired width for the specific card */
+  }
+  
+  
