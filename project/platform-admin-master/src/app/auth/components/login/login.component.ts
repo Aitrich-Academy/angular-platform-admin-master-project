@@ -26,7 +26,7 @@ export class LoginComponent {
     this.loginError = !this.isLoggedIn;
 
     if (this.isLoggedIn) {
-      this.router.navigate(['/dashboard']); // Redirect to the dashboard route
+      this.router.navigate(['/admin-home/dashboard']); // Redirect to the dashboard route
     }
   }
 
