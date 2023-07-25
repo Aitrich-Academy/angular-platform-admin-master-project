@@ -102,7 +102,25 @@
       "contactPhone" : "assets/images/messages/contact.png",
       "status": "Candidate"
     }
-  ]
+  ],
+  "items": [
+    {
+        "name": "John Doe",
+        "qualification": "BSc in Computer Science",
+        "image": "john.jpg"
+    },
+    {
+        "name": "Jane Smith",
+        "qualification": "MBA in Business Administration",
+        "image": "jane.jpg"
+    },
+    {
+        "name": "Alex Johnson",
+        "qualification": "Ph.D. in Physics",
+        "image": "alex.jpg"
+    }
+]
+
 }
 
 
