@@ -4,6 +4,7 @@ import { JobSeekerHomeComponent } from './components/job-seeker-home/job-seeker-
 import { JobSeekerListComponent } from './components/job-seeker-list/job-seeker-list.component';
 import { JobSeekersRoutingModule } from './routes/job-seekers-routing.module';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -15,7 +16,8 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     RouterModule,
-    JobSeekersRoutingModule
+    JobSeekersRoutingModule,
+    HttpClientModule
   ]
 })
 export class JobSeekersModule { }
