@@ -14,6 +14,9 @@ const routes: Routes = [{
     path: 'job-provider', loadChildren: () => import('../../job-providers/job-providers.module').then(m => m.JobProvidersModule)
   },
   {
+    path:'new-registration',loadChildren:()=>import('../../new-registrations/new-registrations.module').then(m=>m.NewRegistrationsModule)
+  },
+  {
     path: "job-seeker", loadChildren: () => import('../../job-seekers/job-seekers.module').then(m => m.JobSeekersModule)
   },
   {

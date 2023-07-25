@@ -36,5 +36,72 @@
       "heading": "New Companies",
       "value": "75"
     }
+  ],
+
+  "registrations": [
+    {
+      "id": "#APL-0003",
+      "dateApplied": "June 1, 2020, 08:22 AM",
+      "companyName": "Mosciski Inc.",
+      "jobRole" : "Creative Design Agency",
+      "type": "FREELANCE",
+      "position": "Intern UI Designer",
+      "contactPhone" : "assets/images/messages/contact.png",
+      "contactMail" : "assets/images/messages/email.png",
+      "status": "Pending"
+    },
+    {
+      "id": "#APL-0002",
+      "dateApplied": "June 1, 2020, 08:22 AM",
+      "companyName": "Funk Inc.",
+      "jobRole" : "IT Department",
+      "type": "PART TIME",
+      "position": "Junior UI Designer",
+      "contactPhone" : "assets/images/messages/contact.png",
+      "status": "On-Hold"
+    },
+    {
+      "id": "#APL-0003",
+      "dateApplied": "June 1, 2020, 08:22 AM",
+      "companyName": "Mosciski Inc.",
+      "jobRole" : "Creative Design Agency",
+      "type": "FREELANCE",
+      "position": "Intern UI Designer",
+      "contactPhone" : "assets/images/messages/contact.png",
+      "contactMail" : "assets/images/messages/email.png",
+      "status": "Pending"
+    },
+    {
+      "id": "#APL-0001",
+      "dateApplied": "June 1, 2020, 08:22 AM",
+      "companyName": "Highspeed Studios",
+      "jobRole" : "Creative Design Agency",
+      "type": "FULLTIME",
+      "position": "Senior UX Designer",
+      "contactPhone" : "assets/images/messages/contact.png",
+      "status": "Candidate"
+    },
+    {
+      "id": "#APL-0002",
+      "dateApplied": "June 1, 2020, 08:22 AM",
+      "companyName": "Funk Inc.",
+      "jobRole" : "IT Department",
+      "type": "PART TIME",
+      "position": "Junior UI Designer",
+      "contactPhone" : "assets/images/messages/contact.png",
+      "status": "On-Hold"
+    },
+    {
+      "id": "#APL-0001",
+      "dateApplied": "June 1, 2020, 08:22 AM",
+      "companyName": "Highspeed Studios",
+      "jobRole" : "Creative Design Agency",
+      "type": "FULLTIME",
+      "position": "Senior UX Designer",
+      "contactPhone" : "assets/images/messages/contact.png",
+      "status": "Candidate"
+    }
   ]
 }
+
+
