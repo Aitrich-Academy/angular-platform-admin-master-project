@@ -36,5 +36,124 @@
       "heading": "New Companies",
       "value": "75"
     }
-  ]
+  ],
+  "Companies":[
+        {
+            "id":1,
+            "companyLogo":"assets/images/jobProvider/placeholder.png",
+            "companyName":"Aitrich",
+            "department":"IT Department"
+        },
+        {
+            "id":2,
+            "companyLogo":"assets/images/jobProvider/placeholder.png",
+            "companyName":"Funk Inc",
+            "department":"IT Department"
+        },
+        {
+            "id":3,
+            "companyLogo":"assets/images/jobProvider/placeholder.png",
+            "companyName":"High Speed Studios",
+            "department":"Creative Design Agency"
+        },
+        {
+            "id":4,
+            "companyLogo":"assets/images/jobProvider/placeholder.png",
+            "companyName":"Incubator Studios",
+            "department":"IT House"
+        }
+    ],
+    "Jobs":[
+      {
+        "id":1,
+        "companyName":"Maximoz Team",
+        "companyLogo":"assets/images/jobs/companyLogo (2).png",
+        "jobPost":"Programmer",
+        "salary":"14000-25000",
+        "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+        "locations":"London,England"
+      },
+      {
+        "id":2,
+        "companyName":"Maximoz Team",
+        "companyLogo":"assets/images/jobs/companyLogo (2).png",
+        "jobPost":"Database Programmer",
+        "salary":"14000-25000",
+        "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+        "locations":"London,England"
+    
+      },
+      {
+        "id":3,
+        "companyName":"Maximoz Team",
+        "companyLogo":"assets/images/jobs/companyLogo (2).png",
+        "jobPost":"Engineer",
+        "salary":"14000-25000",
+        "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+        "locations":"London,England"
+      },
+      {
+        "id":4,
+        "companyName":"Maximoz Team",
+        "companyLogo":"assets/images/jobs/companyLogo (2).png",
+        "jobPost":"Photographer",
+        "salary":"14000-25000",
+        "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+        "locations":"London,England"
+      },
+      {
+        "id":5,
+        "companyName":"Maximoz Team",
+        "companyLogo":"assets/images/jobs/companyLogo (2).png",
+        "jobPost":"Digital Marketing",
+        "salary":"14000-25000",
+        "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+        "locations":"London,England"
+      },
+      {
+        "id":6,
+        "companyName":"Maximoz Team",
+        "companyLogo":"assets/images/jobs/companyLogo (2).png",
+        "jobPost":"Digital Marketing",
+        "salary":"12000-20000",
+        "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+        "locations":"London,France"
+      },
+      {
+        "id":7,
+        "companyName":"Maximoz Team",
+        "companyLogo":"assets/images/jobs/companyLogo (2).png",
+        "jobPost":"Software Engineer",
+        "salary":"15000-25000",
+        "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+        "locations":"UAE,England"
+      },
+      {
+        "id":8,
+        "companyName":"Maximoz Team",
+        "companyLogo":"assets/images/jobs/companyLogo (2).png",
+        "jobPost":"Photographer",
+        "salary":"14000-25000",
+        "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+        "locations":"London,England"
+      },
+      {
+        "id":9,
+        "companyName":"Maximoz Team",
+        "companyLogo":"assets/images/jobs/companyLogo (2).png",
+        "jobPost":"Photographer",
+        "salary":"14000-25000",
+        "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+        "locations":"London,England"
+      },
+      {
+        "id":10,
+        "companyName":"Maximoz Team",
+        "companyLogo":"assets/images/jobs/companyLogo (2).png",
+        "jobPost":"Software Engineer",
+        "salary":"14000-25000",
+        "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+        "locations":"London,England"
+      }
+    ]
 }
