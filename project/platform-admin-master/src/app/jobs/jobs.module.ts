@@ -4,6 +4,8 @@ import { JobHomeComponent } from './components/job-home/job-home.component';
 import { JobListComponent } from './components/job-list/job-list.component';
 import { RouterModule } from '@angular/router';
 import { JobsRoutingModule } from './routes/jobs-routing.module';
+import { SearchbarComponent } from '../shared/searchbar/searchbar.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -15,7 +17,8 @@ import { JobsRoutingModule } from './routes/jobs-routing.module';
   imports: [
     CommonModule,
     RouterModule,
-    JobsRoutingModule
+    JobsRoutingModule,
+  SharedModule
   ]
 })
 export class JobsModule { }

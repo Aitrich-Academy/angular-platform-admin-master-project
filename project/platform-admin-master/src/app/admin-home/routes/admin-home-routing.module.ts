@@ -21,6 +21,12 @@ const routes: Routes = [{
   },
   {
     path:'profile',loadChildren:()=>import('../../profile/profile.module').then(m=>m.ProfileModule)
+  },
+  {
+    path:'jobs',loadChildren:()=>import('../../jobs/jobs.module').then(m=>m.JobsModule)
+  },
+  {
+    path:'settting',loadChildren:()=>import('../../setting/setting.module').then(m=>m.SettingModule)
   }
   ]
 
