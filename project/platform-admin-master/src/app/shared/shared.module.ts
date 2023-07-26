@@ -8,7 +8,6 @@ import { HeaderComponent } from './header/header.component';
 @NgModule({
   declarations: [
     SidebarComponent,
-    HeaderComponent,
     HeaderComponent
   ],
   imports: [
