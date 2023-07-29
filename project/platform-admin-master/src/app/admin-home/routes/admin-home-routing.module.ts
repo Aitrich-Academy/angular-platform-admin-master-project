@@ -26,7 +26,7 @@ const routes: Routes = [{
     path:'jobs',loadChildren:()=>import('../../jobs/jobs.module').then(m=>m.JobsModule)
   },
   {
-    path:'settting',loadChildren:()=>import('../../setting/setting.module').then(m=>m.SettingModule)
+    path:'setting',loadChildren:()=>import('../../setting/setting.module').then(m=>m.SettingModule)
   }
   ]
 
