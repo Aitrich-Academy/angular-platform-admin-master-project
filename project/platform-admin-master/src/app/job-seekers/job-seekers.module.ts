@@ -5,6 +5,7 @@ import { JobSeekerListComponent } from './components/job-seeker-list/job-seeker-
 import { JobSeekersRoutingModule } from './routes/job-seekers-routing.module';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     CommonModule,
     RouterModule,
     JobSeekersRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    SharedModule
   ]
 })
 export class JobSeekersModule { }

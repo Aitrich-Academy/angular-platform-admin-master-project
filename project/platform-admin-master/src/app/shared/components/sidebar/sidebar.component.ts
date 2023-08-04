@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { AuthService } from 'src/app/auth/service/AuthService.service';
 
 @Component({
   selector: 'app-sidebar',
@@ -9,7 +10,7 @@ import { Router } from '@angular/router';
 export class SidebarComponent implements OnInit {
 
   
-  constructor(private router: Router) { }
+  constructor(private authservice : AuthService,private router: Router) { }
 
   ngOnInit() {
   }
@@ -24,5 +25,27 @@ export class SidebarComponent implements OnInit {
 
   navigateToMessages() {
     this.router.navigate(['/admin-home/messages']);
+  }
+
+  navigateToSettings() {
+    this.router.navigate(['/admin-home/setting/update']);
+  }
+
+  navigateToJobProviders() {
+    this.router.navigate(['/admin-home/job-provider/list']);
+  }
+
+  navigateToJobs() {
+    this.router.navigate(['/admin-home/jobs/list']);
+  }
+
+  navigateToJobSeekers() {
+    this.router.navigate(['/admin-home/job-seeker/list']);
+  }
+
+  logout(): void {
+    this.authservice.logout();
+    this.router.navigate(['/login']);
+
   }
 }

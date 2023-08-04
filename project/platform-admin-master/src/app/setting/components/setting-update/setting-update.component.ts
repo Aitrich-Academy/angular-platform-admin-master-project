@@ -90,7 +90,7 @@ export class SettingUpdateComponent implements OnInit {
   }
 
   updateProfile(){
-    console.log("hai");
+
     const formdata=this.profileForm.value;
     console.log(this.profileForm.value); 
     this.settingService.updateProfile(formdata).subscribe((data)=>{

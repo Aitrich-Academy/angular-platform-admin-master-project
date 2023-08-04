@@ -8,7 +8,7 @@ import { data } from '../model/job-seeker-list.model';
 })
 export class DataService {
 
-  private jsonDataUrl = ' http://localhost:3000/items'; // Assuming the JSON file is in the "assets" folder
+  private jsonDataUrl = 'http://localhost:3000/items'; // Assuming the JSON file is in the "assets" folder
 
   constructor(private http: HttpClient) { }
 

@@ -37,5 +37,218 @@
       "heading": "New Companies",
       "value": "75"
     }
-  ]
+  ],
+
+ "registrations": [
+    {
+      "id": "#APL-0003",
+      "dateApplied": "June 1, 2020, 08:22 AM",
+      "companyName": "Mosciski Inc.",
+      "jobRole" : "Creative Design Agency",
+      "type": "FREELANCE",
+      "position": "Intern UI Designer",
+      "contactPhone" : "assets/images/messages/contact.png",
+      "contactMail" : "assets/images/messages/email.png",
+      "status": "Pending"
+    },
+    {
+      "id": "#APL-0002",
+      "dateApplied": "June 1, 2020, 08:22 AM",
+      "companyName": "Funk Inc.",
+      "jobRole" : "IT Department",
+      "type": "PART TIME",
+      "position": "Junior UI Designer",
+      "contactPhone" : "assets/images/messages/contact.png",
+      "status": "On-Hold"
+    },
+    {
+      "id": "#APL-0003",
+      "dateApplied": "June 1, 2020, 08:22 AM",
+      "companyName": "Mosciski Inc.",
+      "jobRole" : "Creative Design Agency",
+      "type": "FREELANCE",
+      "position": "Intern UI Designer",
+      "contactPhone" : "assets/images/messages/contact.png",
+      "contactMail" : "assets/images/messages/email.png",
+      "status": "Pending"
+    },
+    {
+      "id": "#APL-0001",
+      "dateApplied": "June 1, 2020, 08:22 AM",
+      "companyName": "Highspeed Studios",
+      "jobRole" : "Creative Design Agency",
+      "type": "FULLTIME",
+      "position": "Senior UX Designer",
+      "contactPhone" : "assets/images/messages/contact.png",
+      "status": "Candidate"
+    },
+    {
+      "id": "#APL-0002",
+      "dateApplied": "June 1, 2020, 08:22 AM",
+      "companyName": "Funk Inc.",
+      "jobRole" : "IT Department",
+      "type": "PART TIME",
+      "position": "Junior UI Designer",
+      "contactPhone" : "assets/images/messages/contact.png",
+      "status": "On-Hold"
+    },
+    {
+      "id": "#APL-0001",
+      "dateApplied": "June 1, 2020, 08:22 AM",
+      "companyName": "Highspeed Studios",
+      "jobRole" : "Creative Design Agency",
+      "type": "FULLTIME",
+      "position": "Senior UX Designer",
+      "contactPhone" : "assets/images/messages/contact.png",
+      "status": "Candidate"
+    }
+  ],
+  
+  "items": [
+    {
+        "name": "John Doe",
+        "qualification": "BSc in Computer Science",
+        "image": "assets/images/jobseeker/companyLogo (1).png"
+    },
+    {
+        "name": "Jane Smith",
+        "qualification": "MBA in Business Administration",
+        "image": "assets/images/jobseeker/companyLogo (1).png"
+    },
+    {
+        "name": "Alex Johnson",
+        "qualification": "Ph.D. in Physics",
+        "image":"assets/images/jobseeker/companyLogo (1).png"
+    }
+],
+"Companies":[
+  {
+        "id":1,
+        "companyLogo":"assets/images/jobProvider/placeholder.png",
+        "companyName":"Aitrich",
+        "department":"IT Department"
+    },
+    {
+        "id":2,
+        "companyLogo":"assets/images/jobProvider/placeholder.png",
+        "companyName":"Funk Inc",
+        "department":"IT Department"
+    },
+    {
+        "id":3,
+        "companyLogo":"assets/images/jobProvider/placeholder.png",
+        "companyName":"High Speed Studios",
+        "department":"Creative Design Agency"
+    },
+    {
+        "id":4,
+        "companyLogo":"assets/images/jobProvider/placeholder.png",
+        "companyName":"Incubator Studios",
+        "department":"IT House"
+    }
+],
+"Jobs":[
+  {
+    "id":1,
+    "companyName":"Maximoz Team",
+    "companyLogo":"assets/images/jobs/companyLogo (2).png",
+    "jobPost":"Programmer",
+    "salary":"14000-25000",
+    "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+    "locations":"London,England"
+  },
+  {
+    "id":2,
+    "companyName":"Maximoz Team",
+    "companyLogo":"assets/images/jobs/companyLogo (2).png",
+    "jobPost":"Database Programmer",
+    "salary":"14000-25000",
+    "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+    "locations":"London,England"
+  },
+  {
+    "id":3,
+    "companyName":"Maximoz Team",
+    "companyLogo":"assets/images/jobs/companyLogo (2).png",
+    "jobPost":"Engineer",
+    "salary":"14000-25000",
+    "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+    "locations":"London,England"
+  },
+  {
+    "id":4,
+    "companyName":"Maximoz Team",
+    "companyLogo":"assets/images/jobs/companyLogo (2).png",
+    "jobPost":"Photographer",
+    "salary":"14000-25000",
+    "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+    "locations":"London,England"
+  },
+  {
+    "id":5,
+    "companyName":"Maximoz Team",
+    "companyLogo":"assets/images/jobs/companyLogo (2).png",
+    "jobPost":"Digital Marketing",
+    "salary":"14000-25000",
+    "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+    "locations":"London,England"
+  },
+  {
+    "id":6,
+    "companyName":"Maximoz Team",
+    "companyLogo":"assets/images/jobs/companyLogo (2).png",
+    "jobPost":"Digital Marketing",
+    "salary":"12000-20000",
+    "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+    "locations":"London,France"
+  },
+  {
+    "id":7,
+    "companyName":"Maximoz Team",
+    "companyLogo":"assets/images/jobs/companyLogo (2).png",
+    "jobPost":"Software Engineer",
+    "salary":"15000-25000",
+    "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+    "locations":"UAE,England"
+  },
+  {
+    "id":8,
+    "companyName":"Maximoz Team",
+    "companyLogo":"assets/images/jobs/companyLogo (2).png",
+    "jobPost":"Photographer",
+    "salary":"14000-25000",
+    "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+    "locations":"London,England"
+  },
+  {
+    "id":9,
+    "companyName":"Maximoz Team",
+    "companyLogo":"assets/images/jobs/companyLogo (2).png",
+    "jobPost":"Photographer",
+    "salary":"14000-25000",
+    "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+    "locations":"London,England"
+  },
+  {
+    "id":10,
+    "companyName":"Maximoz Team",
+    "companyLogo":"assets/images/jobs/companyLogo (2).png",
+    "jobPost":"Software Engineer",
+    "salary":"14000-25000",
+    "description":"Lorem ipsum sit amet, consectetur adipiscing elit,sed do elusmopd addfvxxx mdmsdks lrotrtdf asdffdgg sfsdfg. ",
+    "locations":"London,England"
+  }
+],
+
+"profile" : [
+  {
+    "id": 1,
+    "profilePic" : "assets/images/setting/Ellipse 1837.png",
+    "fullname" : "Sreelakshmi",
+    "email" : "admin@gmail.com",
+    "username" : "admin",
+    "password" : "pass"
+  }
+  
+]
 }
