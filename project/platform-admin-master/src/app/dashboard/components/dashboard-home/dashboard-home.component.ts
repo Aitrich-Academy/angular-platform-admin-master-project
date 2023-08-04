@@ -10,7 +10,6 @@ import { Card } from '../../model/dashboard.model';
 export class DashboardHomeComponent implements OnInit {
 
   cards: Card[] = [];
-  backgroundColors: string[] = ['green', 'skyblue', 'blue', 'blue', 'skyblue', 'green'];
 
   constructor(private dashboardService: dashboardService) { }
 
@@ -29,7 +28,4 @@ export class DashboardHomeComponent implements OnInit {
     );
   }
 
-  changeBackgroundColor(card: Card, index: number): void {
-    card.backgroundColor = this.backgroundColors[index];
-  }
 }

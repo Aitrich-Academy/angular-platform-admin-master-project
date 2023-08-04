@@ -4,7 +4,12 @@
   }
   
   .custom-width {
-    width: 300px; /* Adjust the desired width for the specific card */
-  }
+    /* Adjust the desired width for the specific card */
+   height: 100%;
+ }
+ 
+ .card-text {
+   font-weight: 400;
+ }
   
   

@@ -5,37 +5,43 @@
       "id": 1,
       "image": "assets/images/dashboard/icon-person.png",
       "heading": "Total Jobs Posted",
-      "value": "45,673"
+      "value": "45,673",
+      "backgroundColor": "#44BB7F"
     },
     {
       "id": 2,
       "image": "assets/images/dashboard/icon-suitcase.png",
       "heading": "Total Job Seekers",
-      "value": "7500"
+      "value": "7500",
+      "backgroundColor": "#60A4DA"
     },
     {
       "id": 3,
       "image": "assets/images/dashboard/icon-building.png",
       "heading": "Total Companies",
-      "value": "93"
+      "value": "93",
+      "backgroundColor": "#5152A3"
     },
     {
       "id": 4,
       "image": "assets/images/dashboard/icon-calender.png",
       "heading": "New Jobs",
-      "value": "86"
+      "value": "86",
+      "backgroundColor": "#5152A3"
     },
     {
       "id": 5,
       "image": "assets/images/dashboard/icon-calender.png",
       "heading": "New Job Seekers",
-      "value": "86"
+      "value": "86",
+      "backgroundColor": "#60A4DA"
     },
     {
       "id": 6,
       "image": "assets/images/dashboard/icon-suitcase.png",
       "heading": "New Companies",
-      "value": "75"
+      "value": "75",
+      "backgroundColor": "#8BC542"
     }
   ],
 
