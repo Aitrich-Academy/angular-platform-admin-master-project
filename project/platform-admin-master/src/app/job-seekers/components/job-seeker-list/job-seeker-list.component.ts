@@ -19,5 +19,6 @@ export class JobSeekerListComponent implements OnInit {
       console.log(this.data);
     });
   }
+ 
 
 }

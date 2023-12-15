@@ -5,6 +5,7 @@ import { ProvidersListComponent } from './components/providers-list/providers-li
 import { JobProvidersRoutingModule } from './routes/job-providers-routing.module';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
+import { FormsModule } from '@angular/forms';
 // import { SearchbarComponent } from '../shared/searchbar/searchbar.component';
 
 
@@ -18,8 +19,8 @@ import { SharedModule } from '../shared/shared.module';
     CommonModule,
     RouterModule,
     JobProvidersRoutingModule,
-    SharedModule
-    
+    SharedModule,
+    FormsModule
   ]
 })
 export class JobProvidersModule { }

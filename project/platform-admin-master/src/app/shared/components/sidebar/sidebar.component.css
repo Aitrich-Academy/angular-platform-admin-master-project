@@ -25,7 +25,7 @@ h2{
   position: fixed;
   width: 300px;
   height: 100%;
-  background:  #2a2185;
+  background:   #053575;
   border-left: 10px solid var(--blue);
   transition: 0.5s;
   overflow: hidden;

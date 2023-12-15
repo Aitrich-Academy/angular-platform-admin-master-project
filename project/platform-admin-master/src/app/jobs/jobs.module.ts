@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { JobsRoutingModule } from './routes/jobs-routing.module';
 import { SearchbarComponent } from '../shared/searchbar/searchbar.component';
 import { SharedModule } from '../shared/shared.module';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -18,7 +19,8 @@ import { SharedModule } from '../shared/shared.module';
     CommonModule,
     RouterModule,
     JobsRoutingModule,
-  SharedModule
+    SharedModule,
+    FormsModule
   ]
 })
 export class JobsModule { }

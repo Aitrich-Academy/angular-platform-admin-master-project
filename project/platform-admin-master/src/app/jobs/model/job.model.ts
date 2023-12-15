@@ -1,9 +1,11 @@
 export interface Jobs {
-    id: number;
-    companyLogo: string;
-    companyName: string;
-    description: string;
-    jobPost:string;
-    salary:string;
-    locations:string;
+    id: string,
+   jobTitle: string,
+    jobSummary: string,
+   locationName: string,
+    industryName:string,
+   jobCategoryName:string,
+   postedByNavigationFirstName: string,
+   postedDate:string,
+   saved:string
   }

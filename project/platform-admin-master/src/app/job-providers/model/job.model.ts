@@ -1,6 +1,11 @@
 export interface Companies {
-    id: number;
-    companyLogo: string;
-    companyName: string;
-    department: string;
-  }
+  id:string,
+  legalName:string,
+  summary:string,
+  industry:string,
+  email:string,
+  phone:string,
+  address:string,
+  website:string,
+  location:string
+}

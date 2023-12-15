@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environments';
 import { data } from '../model/job-seeker-list.model';
 
 @Injectable({
@@ -8,11 +9,11 @@ import { data } from '../model/job-seeker-list.model';
 })
 export class DataService {
 
-  private jsonDataUrl = 'http://localhost:3000/items'; // Assuming the JSON file is in the "assets" folder
+  private DataUrl = environment.baseurl+'/api/v1/admin/GetJobSeekers';// Assuming the JSON file is in the "assets" folder
 
   constructor(private http: HttpClient) { }
 
   getData(): Observable<data[]> {
-    return this.http.get<data[]>(this.jsonDataUrl);
+    return this.http.get<data[]>(this.DataUrl);
   }
 }

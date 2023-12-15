@@ -1,15 +1,11 @@
 .card-img {
-    max-width: 70px; /* Adjust the desired max width for the image */
-    max-height: 70px; /* Adjust the desired max height for the image */
+    max-width: 10%; /* Adjust the desired max width for the image */
+    max-height:10%; /* Adjust the desired max height for the image */
   }
   
-  .custom-width {
-    /* Adjust the desired width for the specific card */
-   height: 100%;
- }
- 
+  
  .card-text {
-   font-weight: 400;
+   font-weight: bold;
  }
   
   

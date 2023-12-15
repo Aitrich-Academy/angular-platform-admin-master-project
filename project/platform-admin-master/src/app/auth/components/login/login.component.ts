@@ -20,14 +20,24 @@ export class LoginComponent {
     this.isLoggedIn = false;
   }
 
-  login(): void {
-   
-    this.isLoggedIn = this.authService.login(this.email, this.password);
-    this.loginError = !this.isLoggedIn;
+  login() {
+    const credentials = {
+      email: this.email,
+      password: this.password
+    };
 
-    if (this.isLoggedIn) {
-      this.router.navigate(['/admin-home/dashboard']); // Redirect to the dashboard route
-    }
+    this.authService.login(credentials).subscribe(
+      () => {
+        this.isLoggedIn = true;
+        // Redirect to home or another page upon successful login
+        this.router.navigate(['/admin-home']);
+      },
+      (error) => {
+        console.error('Login failed:', error);
+        this.loginError = true;
+        // Handle login failure, show error message, etc.
+      }
+    );
   }
 
 }

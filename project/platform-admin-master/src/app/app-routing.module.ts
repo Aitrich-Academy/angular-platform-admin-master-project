@@ -8,9 +8,12 @@ const routes: Routes = [
   {
     path:'',loadChildren:()=>import('./admin-home/admin-home.module').then(m=>m.AdminHomeModule)
   },
-  {
-    path:'',loadChildren:()=>import('./jobs/jobs.module').then(m=>m.JobsModule)
-  }
+  // {
+  //   path:'',loadChildren:()=>import('./jobs/jobs.module').then(m=>m.JobsModule)
+  // },
+  // {
+  //   path:'',loadChildren:()=>import('./skill/skill.module').then(m=>m.SkillModule)
+  // }
 ];
 
 @NgModule({

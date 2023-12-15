@@ -2,12 +2,17 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { AdminHomeComponent } from '../components/admin-home/admin-home.component';
+import { DashboardHomeComponent } from 'src/app/dashboard/components/dashboard-home/dashboard-home.component';
 
 
 
 const routes: Routes = [{
   path: 'admin-home', component: AdminHomeComponent,
-  children: [{
+  children: [
+  {
+      path: '', loadChildren: () => import('../../dashboard/dashboard.module').then(m => m.DashboardModule)
+  },
+  {
     path: 'dashboard', loadChildren: () => import('../../dashboard/dashboard.module').then(m => m.DashboardModule)
   },
   {
@@ -28,8 +33,11 @@ const routes: Routes = [{
   {
     path:'jobs',loadChildren:()=>import('../../jobs/jobs.module').then(m=>m.JobsModule)
   },
+  // {
+  //   path:'setting',loadChildren:()=>import('../../setting/setting.module').then(m=>m.SettingModule)
+  // }
   {
-    path:'setting',loadChildren:()=>import('../../setting/setting.module').then(m=>m.SettingModule)
+    path:'skill',loadChildren:()=>import('../../skill/skill.module').then(m=>m.SkillModule)
   }
   ]
 

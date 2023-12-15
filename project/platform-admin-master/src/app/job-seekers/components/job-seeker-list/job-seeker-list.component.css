@@ -11,3 +11,6 @@ button:last-child {
     color: white;
     background-color: #40189D;
 }
+span{
+    font-weight: bold;
+}

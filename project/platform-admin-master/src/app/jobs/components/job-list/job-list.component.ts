@@ -10,28 +10,39 @@ import { Jobs } from '../../model/job.model';
 export class JobListComponent implements OnInit {
   jobs: Jobs[] = [];
   filteredJobs: Jobs[] = [];
-
+   searchTerm:string='';
   constructor(private jobService: jobService) { }
 
-    ngOnInit(): void {
+  ngOnInit(): void {
     this.getJobs();
   }
 
   getJobs(): void {
-    this.jobService.getJobs().subscribe((result) => {
-      this.jobs = result;
-      this.filteredJobs = result;
+    this.jobService.getJobs().subscribe((jobs) => {
+      this.jobs = jobs;
+      this.filteredJobs = jobs;
 
     });
   }
+  filterJobs() {
 
-  filterJobs(jobPost: string): void {
-
-    // this.filteredJobs = this.jobs.filter((job) => job.jobPost === jobPost);
-    this.filteredJobs = this.jobs.filter((job) => job.jobPost.toLowerCase().includes(jobPost.toLowerCase()));
-
+    this.jobService.filterJobs(this.searchTerm).subscribe(
+      (result) => {
+        this.filteredJobs = result;
+        console.log(this.filteredJobs);
+      },
+      (error) => {
+        console.error('Error filtering jobs', error);
+      }
+    );
   }
-}
+  filterJobsByName(jobName:string) {
+    this.jobService.filterJobs(jobName).subscribe((result)=>{
+      this.filteredJobs=result;
+    })
+  }
+  }
+
 
 
 

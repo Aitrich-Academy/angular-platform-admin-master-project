@@ -42,7 +42,9 @@ export class SidebarComponent implements OnInit {
   navigateToJobSeekers() {
     this.router.navigate(['/admin-home/job-seeker/list']);
   }
-
+  navigateToSkills() {
+    this.router.navigate(['/admin-home/skill/addSkill']);
+  }
   logout(): void {
     this.authservice.logout();
     this.router.navigate(['/login']);
